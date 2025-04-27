@@ -1,3 +1,3 @@
-import renderPage from "./restaurant";
+import renderPage from "./home";
 
 renderPage();
