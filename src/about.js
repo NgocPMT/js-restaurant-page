@@ -1,14 +1,14 @@
 import titleBackground from "./img/bg-hero.jpg";
+import "./css/about.css";
 
 export default function renderPage() {
   const contentEl = document.querySelector("#content");
 
   contentEl.innerHTML = `
-  <img id="title-background" src=${titleBackground} alt="title background"/>
+  <img class="about-title-background" src=${titleBackground} alt="title background"/>
   <div class="about-overlay"></div>
-  <div class="overlay"></div>
-  <section id="title">
-    <h1 class="title-heading">About Us</h1>
+  <section id="about-title">
+    <h1 class="about-title-heading">About Us</h1>
   </section>
   `;
 }
