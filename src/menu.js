@@ -18,5 +18,100 @@ export default function renderPage() {
   <section id="menu-title">
     <h1 class="menu-title-heading">Menu</h1>
   </section>
+  <main>
+    <section id="menu">
+      <h2>Most Popular Items</h2>
+      <div class="menu-items">
+        <div class="menu-item">
+          <img src=${menu1} alt="">
+          <div class="item-content">
+            <div class="item-name">
+              <h3>Chicken Burger</h3>
+              <h3>$115</h3>
+            </div>
+            <hr />
+            <p>burgdoggen prosciutto chislic filet mignon sausage brisket beef short loin alcatra strip steak</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src=${menu2} alt="">
+          <div class="item-content">
+            <div class="item-name">
+              <h3>Chicken Burger</h3>
+              <h3>$115</h3>
+            </div>
+            <hr />
+            <p>burgdoggen prosciutto chislic filet mignon sausage brisket beef short loin alcatra strip steak</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src=${menu3} alt="">
+          <div class="item-content">
+            <div class="item-name">
+              <h3>Chicken Burger</h3>
+              <h3>$115</h3>
+            </div>
+            <hr />
+            <p>burgdoggen prosciutto chislic filet mignon sausage brisket beef short loin alcatra strip steak</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src=${menu4} alt="">
+          <div class="item-content">
+            <div class="item-name">
+              <h3>Chicken Burger</h3>
+              <h3>$115</h3>
+            </div>
+            <hr />
+            <p>burgdoggen prosciutto chislic filet mignon sausage brisket beef short loin alcatra strip steak</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src=${menu5} alt="">
+          <div class="item-content">
+            <div class="item-name">
+              <h3>Chicken Burger</h3>
+              <h3>$115</h3>
+            </div>
+            <hr />
+            <p>burgdoggen prosciutto chislic filet mignon sausage brisket beef short loin alcatra strip steak</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src=${menu6} alt="">
+          <div class="item-content">
+            <div class="item-name">
+              <h3>Chicken Burger</h3>
+              <h3>$115</h3>
+            </div>
+            <hr />
+            <p>burgdoggen prosciutto chislic filet mignon sausage brisket beef short loin alcatra strip steak</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src=${menu7} alt="">
+          <div class="item-content">
+            <div class="item-name">
+              <h3>Chicken Burger</h3>
+              <h3>$115</h3>
+            </div>
+            <hr />
+            <p>burgdoggen prosciutto chislic filet mignon sausage brisket beef short loin alcatra strip steak</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src=${menu8} alt="">
+          <div class="item-content">
+            <div class="item-name">
+              <h3>Chicken Burger</h3>
+              <h3>$115</h3>
+            </div>
+            <hr />
+            <p>burgdoggen prosciutto chislic filet mignon sausage brisket beef short loin alcatra strip steak</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
   `;
 }
