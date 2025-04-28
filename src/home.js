@@ -7,7 +7,7 @@ export default function renderPage() {
   contentEl.innerHTML = `
  
   <img class="hero-background" src=${bgHero} alt="hero background"/>
-  <div class="overlay"></div>
+  <div class="home-overlay"></div>
     <section id="hero">
         <div class="hero-content">
           <h1 class="hero-heading">Enjoy Our Delicious Meal</h1>

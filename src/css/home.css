@@ -1,79 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  /* outline: 2px solid red; */
-}
-
-html, body {
-  font-size: 16px;
-  font-family: 'Nunito', Arial, Helvetica, sans-serif;
-}
-
-.wrapper {
-  padding: 0 7%;
-}
-
-header {
-  padding: 1rem 3.25rem 0 3.25rem;
-  position:sticky;
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-nav ul#menu {
-  display: flex;
-  width: 50%;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.menu-button {
-  background-color: transparent;
-  color: white;
-  font-size: 1rem;
-  font-weight: medium;
-  border: none;
-  transition: color 0.2s;
-  cursor: pointer;
-}
-
-.menu-button:hover {
-  color:#ffa217;
-}
-
-.menu-booking-button {
-  background-color: #ffa217;
-  color: white;
-  border: none;
-  border-radius: 0.1rem;
-  padding: 0.75rem 1.75rem;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-.menu-booking-button:hover {
-  background-color: #ffad32;
-}
-
-#logo-container {
-  color: #ffa217;
-  font-size: 2.5rem;
-  font-weight: 900;
-
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-#logo {
-  width: 3rem;
-}
-
 #hero {
   position: relative;
   display: grid;
@@ -82,7 +6,7 @@ nav ul#menu {
   height: 90vh;
 }
 
-.hero-background, .overlay {
+.hero-background, .home-overlay {
   position: absolute;
   z-index: -2;
   top: 0;
@@ -92,7 +16,7 @@ nav ul#menu {
   object-fit: 50% 50%;
 }
 
-.overlay {
+.home-overlay {
   z-index: -1;
   background-color: rgba(4, 4, 35, 0.85);
 }
