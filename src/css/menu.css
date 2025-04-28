@@ -1,0 +1,27 @@
+.menu-title-background, .menu-overlay {
+  position: absolute;
+  top: 0;
+  left: 7%;
+  width: 86%;
+  height: 25rem;
+  z-index: -2;
+  object-fit: 50% 50%;
+}
+
+.menu-overlay {
+  z-index: -1;
+  background-color: rgba(4, 4, 35, 0.85);
+}
+
+#menu-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 17.5rem;
+  margin-bottom: 10rem;
+}
+
+.menu-title-heading {
+  color: white;
+  font-size: 4rem;
+}
